@@ -50,6 +50,13 @@ Create an empty Repo in github
 >git pull // pulls the changes made in github repo to working folder 
 
 
+--Created a New branch in Github
+>git checkout <new branch name>
+>git add .
+>git commit -m ""
+>git push origin <new branch name>
+
+
 -Git Commands
 cd ..  // go back in directory
 cd Gold-Fish //change Directory -- go front
