@@ -60,7 +60,6 @@ Create an empty Repo in github
 
 
 
-
 >git checkout <new branch name>
 >git add .
 >git commit -m ""
@@ -69,6 +68,7 @@ Create an empty Repo in github
 
 --Created a newfile in Github repo
 >git pull // pulls the changes made in github repo to working folder 
+>git pull origin main // to pull changes made in main branch to new branch
 
 
 -Git Commands
