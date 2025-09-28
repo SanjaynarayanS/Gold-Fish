@@ -62,4 +62,4 @@ git push orgin <branch name>
 git branch -a // all the available branches in the repository
 git branch // current branch in the repository
 git checkout <new branch name>  // switch to new branch
-ctrl + C // when git command is running and need to be stopped
+ctrl + C or simply press "q" // when git command is running and need to be stopped
