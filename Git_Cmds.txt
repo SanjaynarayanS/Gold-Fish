@@ -50,10 +50,16 @@ Create an empty Repo in github
 >git pull // pulls the changes made in github repo to working folder 
 
 
+
+
 -Git Commands
 cd ..  // go back in directory
 cd Gold-Fish //change Directory -- go front
 git status // to see the untracked files in Local that needs to be pushed to Git
 git add . // all untracked/modified/deleted files to added(stagging area)
-git branch // all the available branches in the repository
+git commit -m "commit message"
+git push orgin <branch name>
+git branch -a // all the available branches in the repository
+git branch // current branch in the repository
+git checkout <new branch name>  // switch to new branch
 ctrl + C // when git command is running and need to be stopped
