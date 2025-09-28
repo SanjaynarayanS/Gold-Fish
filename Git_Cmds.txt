@@ -1,0 +1,25 @@
+--Prequisites
+git config --global user.name "type github user name"
+git config --global user.email "type github email account"
+
+
+--Understanding
+Github - repository in Github Platform
+Git Cloned Folder - cloned repo in Local
+Working Folder - Copy of Git Cloned Folder
+
+--created a new file in Working folder 
+Git status => untracked
+git add Git_Cmds.txt // untracked to added(stagging Area)
+Git Status => Changes to be commited
+git commit -m "Added Git_Cmds.txt"  // Working folder to Git cloned Folder
+Git Status => use "git push" to publish your local commits
+git push origin main// Git cloned folder to Github
+
+
+
+
+-Git Commands
+cd Gold-Fish //change Directory
+git status // to see the untracked files in Local that needs to be pushed to Git
+ctrl + C // when git command is running and need to be stopped
