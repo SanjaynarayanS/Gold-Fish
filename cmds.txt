@@ -83,4 +83,5 @@ git branch // current branch in the repository
 git checkout <new branch name>  // switch to new branch
 ctrl + C or simply press "q" // when git command is running and need to be stopped
 
+Name : Sanjay
 City : Chennai
