@@ -46,7 +46,8 @@ Create an empty Repo in github
 >git Status => use "git push" to publish your local commits
 >git push origin main// Git cloned folder to Github
 
---Created a New branch in Github
+--Create a New Branch and Merge/Pull Request
+#Create a New branch in Github (or) git branch <new brancn name>
 >git checkout <new branch name>
 >git add .
 >git commit -m ""
@@ -54,6 +55,17 @@ Create an empty Repo in github
 >git checkout main // go back to main before merging the changes
 >git diff <new branch name> // to see the new changes done in the <new branch name> before merging
 >git merge <new branch name> // to merge the changes made in new branch to main branch
+             (or)
+#GitHub(Repo) > pull request > new pull request > Base:? and Compare:? > short message > approve pull request
+
+
+
+
+>git checkout <new branch name>
+>git add .
+>git commit -m ""
+>git push origin <new branch name>
+
 
 --Created a newfile in Github repo
 >git pull // pulls the changes made in github repo to working folder 
